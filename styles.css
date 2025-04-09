@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.exercise {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Exercicio 1: Centralizar uma div */
+.exercise1 {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    position: relative;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.exercise1 .box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+}
+
+/* Exercicio 2: Centralizar texto verticalmente */
+.exercise2 {
+    display: flex;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.exercise2 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    display: flex;                /* Ativa o Flexbox */
+    align-items: center;         /* Centraliza verticalmente */
+    justify-content: center;     /* Centraliza horizontalmente */
+    border: 1px solid #ccc;
+}
+
+/* Exercicio 3: Layout em coluna */
+.exercise3 {
+    display: flex;
+    flex-direction: column;  /* Agora os filhos vão ficar em coluna (um embaixo do outro) */
+}
+.exercise3 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+}
+
+/* Exercicio 4: centralizar e arredondar*/
+.exercise4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.exercise4 .column {
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    background-color: #28a745;
+    display: flex;              /* Nova centralização */                  
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;  
+}
+
+/* Exercicio 5: Alinhamento flexível */
+.exercise5 {
+    display: flex;
+    justify-content: space-between;/* Espaço igual entre os ícones */
+}
+.exercise5 .flex-item {
+    background-color: #6c757d;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+/* Exercicio 6: Botão */
+.exercise6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise6 button {
+    background-color: #7c6cf3;     /* cor roxa parecida */
+    color: white;                  /* cor da letra */
+    font-size: 24px;               /* tamanho do texto */
+    font-weight: bold;            /* negrito */
+    border: none;                 /* tira a borda preta padrão */
+    border-radius: 8px;           /* cantos arredondados */
+    padding: 12px 24px;           /* espaço interno */
+}
+
+/* Exercicio 7: Input */
+.exercise7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise7 input {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;  /* cantos arredondados */
+    padding-left: 10px    /* empurra  espaço à esquerda */
+}
+
+.exercise8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exercise8 input{
+    width: 300px;
+  padding: 8px 5px; /* Espaçamento interno: 8px em cima/baixo, 5px nas laterais */
+  font-size: 16px;
+  border: none;                          /* Remove todas as bordas (superior, inferior, esquerda e direita) */
+  outline: none;                /* Remove o contorno azul padrão do navegador ao clicar */
+}
+
+.exercise9 {
+    display: flex;
+    justify-content: center; /* Centraliza o botão no meio da tela */
+  }
+
+  .exercise9 button {
+    background-color: #4267B2; /* Cor azul do botão */
+    color: white; /* Cor do texto: branco */
+    padding: 10px 20px; /* Espaço dentro do botão */
+    border: none; /* Remove a borda feia padrão */
+    border-radius: 6px; /* Deixa o botão com cantos arredondados */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Muda o mouse pra "mão" quando passa por cima */
+  }
+
+
+
