@@ -133,6 +133,7 @@ h1, h2 {
   padding: 8px 5px; /* Espaçamento interno: 8px em cima/baixo, 5px nas laterais */
   font-size: 16px;
   border: none;                          /* Remove todas as bordas (superior, inferior, esquerda e direita) */
+  border-bottom: 2px solid #007bff;
   outline: none;                /* Remove o contorno azul padrão do navegador ao clicar */
 }
 
